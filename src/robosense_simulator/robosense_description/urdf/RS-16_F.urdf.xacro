@@ -18,14 +18,13 @@
           izz="0.001245079"/>
       </inertial>
       <visual>
-        <origin rpy="-1.5707 0 0" xyz="0.0 0.0 0.0"/>
-        <!-- 5.26 1.345 1.25 -->
+        <origin rpy="-1.5707 0 0" xyz="0 0 0"/>
         <geometry>
           <mesh filename="package://robosense_description/meshes/robosense_16_F.dae" />
         </geometry>
       </visual>
       <collision>
-        <origin rpy="-1.5707 0 0" xyz="0.0 0.0 0.0"/>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
         <geometry>
           <cylinder radius="0.0535" length="0.0817"/>
         </geometry>

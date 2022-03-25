@@ -36,12 +36,12 @@
 
   <xacro:include filename="$(find robosense_description)/urdf/RS-16_F.urdf.xacro"/>
   <xacro:RS-16-F parent="base_link" name="robosense_F" topic="/rs_points_F" hz="20" samples="900" gpu="${gpu}">
-    <origin xyz="3.165 1.345 1.25" rpy="0.0 0.0 0.0" />
+    <origin xyz="3.165 1.345 1.25" rpy="0.0 3.14 -1.5707" />
   </xacro:RS-16-F>
   <!-- 5.26 1.345 1.25 -->
   <xacro:include filename="$(find robosense_description)/urdf/RS-16_B.urdf.xacro"/>
   <xacro:RS-16-B parent="base_link" name="robosense_B" topic="/rs_points_B" hz="20" samples="900" gpu="${gpu}">
-    <origin xyz="-3.165 -1.345 1.25" rpy="0.0 0.0 0.0" />
+    <origin xyz="-3.165 -1.345 1.25" rpy="0.0 3.14 1.5707" />
   </xacro:RS-16-B>  
   <!-- -1.07 -1.345 1.25 -->
 
